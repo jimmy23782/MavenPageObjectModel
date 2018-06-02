@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Jim" name="com.qa.Tests.MercuryHomePageTest" tests="1" failures="1" timestamp="19 May 2018 05:28:34 GMT" time="31.285" errors="0">
+  <testcase name="SignIn" time="24.635" classname="com.qa.Tests.MercuryHomePageTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;link text&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;SIGN-OFF&amp;quot;}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.47.1&amp;apos;, revision: &amp;apos;unknown&amp;apos;, time: &amp;apos;2015-07-30 11:02:44&amp;apos;
+System info: host: &amp;apos;Jim&amp;apos;, ip: &amp;apos;192.168.1.4&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.7.0_79&amp;apos;
+*** Element info: {Using=link text, value=SIGN-OFF}
+Session ID: aec65cef4394119a3cec89abf0a0aa28
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Jimmy\AppData\Local\Temp\scoped_dir9236_15716, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=66.0.3359.181, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"SIGN-OFF"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Jim', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=link text, value=SIGN-OFF}
+Session ID: aec65cef4394119a3cec89abf0a0aa28
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Jimmy\AppData\Local\Temp\scoped_dir9236_15716, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=66.0.3359.181, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:397)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at com.qa.pages.MercuryHomePage.VerifySignIn(MercuryHomePage.java:81)
+	at com.qa.Tests.MercuryHomePageTest.SignIn(MercuryHomePageTest.java:46)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

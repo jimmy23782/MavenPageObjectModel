@@ -1,0 +1,3 @@
+URL1 =http://phptravels.org/clientarea.php
+Browser = chrome
+ChromeDriver=C:\\Users\\Jimmy\\Desktop\\Print\\chromedriver.exe
