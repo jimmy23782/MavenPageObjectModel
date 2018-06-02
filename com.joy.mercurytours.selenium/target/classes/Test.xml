@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <!-- ?xml version="1.0" encoding="UTF-8"?-->
-<suite name="My suite" parallel="methods" thread-count="2">
+<suite name="My suite" parallel="tests" thread-count="2">
   <test name="Test" parallel="classes" thread-count="2">
     <classes> 
       <class name="com.qa.Tests.PHPLoginTest"/>
-      <!-- class name="com.qa.Tests.PHPHomePageTest"/-->
+      <class name="com.qa.Tests.PHPHomePageTest"/>
     </classes>
   </test>   
   <!-- Test -->

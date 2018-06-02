@@ -30,7 +30,7 @@ public class myBaseClass {
 		FileInputStream fi;
 		try {
 			fi = new FileInputStream(
-					"D:\\Java wokspace\\com.joy.mercurytours.selenium\\src\\main\\java\\com\\qa\\config\\config.property");
+					"D:\\GitWorkspace\\MavenPageObjectModel\\com.joy.mercurytours.selenium\\src\\main\\java\\com\\qa\\config\\config.property");
 			prop.load(fi);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

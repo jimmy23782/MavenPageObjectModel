@@ -24,7 +24,7 @@ public class TestUtil {
 	public WebDriver driver;
 	public  static long PAGELOAD_Time_out = 20;
 	public  static long Implicit_wait = 20;
-	public static String TESTDATA_SHEET_PATH = "D:\\Java wokspace\\com.joy.mercurytours.selenium\\src\\main\\java\\com\\qa\\testData\\FreeCRMLogin.xlsx";
+	public static String TESTDATA_SHEET_PATH = "D:\\GitWorkspace\\MavenPageObjectModel\\com.joy.mercurytours.selenium\\src\\main\\java\\com\\qa\\testData\\FreeCRMLogin.xlsx";
 	
 	static Workbook book;
 	static Sheet sheet;
