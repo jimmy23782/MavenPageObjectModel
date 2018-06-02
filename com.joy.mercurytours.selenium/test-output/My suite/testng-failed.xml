@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [My suite]" parallel="tests">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.qa.Tests.PHPLoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="WindUp"/>
+        </methods>
+      </class> <!-- com.qa.Tests.PHPLoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [My suite] -->
